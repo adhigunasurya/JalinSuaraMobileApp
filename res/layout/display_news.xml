@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+    
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="#FFFFFF">
+     <!-- Button Terkini -->
+     <Button android:id="@+id/btn_terkini"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip"
+             android:text="Terkini"/>
+    
+     <!-- Button Terpopuler -->
+     <Button android:id="@+id/btn_populer"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip"
+             android:text="Terpopuler"/>
+
+    </LinearLayout>
+    <!-- Judul -->
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:background="#FFFFFF">  
+	    <TextView android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:textColor="#372c24"
+	         android:text="Daftar Berita"
+	         android:textSize="20sp"
+	         android:singleLine="true"/>
+    </LinearLayout>
+    
+    <!-- Berita Pertama -->
+    
+	 <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:background="#FFFFFF">  
+	     <Button
+	        android:id="@+id/btn_artikel1"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/proyek_pnpm1"
+		/>
+	     
+	     
+	    <TextView android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:textColor="#372c24"
+	         android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet....Read More"
+	         android:textSize="12sp"
+	         />
+    </LinearLayout>
+    
+	 <!-- Berita Kedua -->
+	 
+	  <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:background="#FFFFFF">  
+	     <Button
+	        android:id="@+id/btn_artikel2"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/proyek_pnpm2"
+		/>
+	     
+	     
+	    <TextView android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:textColor="#372c24"
+	         android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet....Read More"
+	         android:textSize="12sp"
+	         />
+    </LinearLayout>
+    
+	   <!-- Berita Ketiga -->
+	 
+	  <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:background="#FFFFFF">  
+	     <Button
+	        android:id="@+id/btn_artikel3"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/proyek_pnpm3"
+		/>
+	     
+	     
+	    <TextView android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:textColor="#372c24"
+	         android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet....Read More"
+	         android:textSize="12sp"
+	         />
+    </LinearLayout>
+    
+	   <!-- Berita Keempat -->
+	 
+	  <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:background="#FFFFFF">  
+	     <Button
+	        android:id="@+id/btn_artikel4"
+	        style="@style/DashboardButton"
+	        android:drawableTop="@drawable/proyek_pnpm4"
+		/>
+	     
+	     
+	    <TextView android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:textColor="#372c24"
+	         android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet....Read More"
+	         android:textSize="12sp"
+	         />
+   		 </LinearLayout>
+	  
+     <!-- Button Tampilkan Peta -->
+	 
+	  <RelativeLayout android:id="@+id/RelativeLayout01"
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btn_tampilpeta" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Tampilkan Peta"
+            android:layout_centerInParent="true"></Button>
+    </RelativeLayout>
+</LinearLayout>
+
+</ScrollView>
